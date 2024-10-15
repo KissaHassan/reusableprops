@@ -12,10 +12,10 @@ interface CountryInfoProps {
 const CountryInfo: React.FC<CountryInfoProps> = ({ name, capital, population, currency }) => {
     return (
         <div>
-            <h1>Country Name: {name}</h1>
-            <h1>Country Capital: {capital}</h1>
-            <h1>Country Population: {population} million</h1>
-            <h1>Country Currency: {currency}</h1>
+            Country Name: {name}
+            Country Capital: {capital}
+            Country Population: {population} million
+            Country Currency: {currency}
         </div>
     );
 };

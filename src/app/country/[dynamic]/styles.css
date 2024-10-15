@@ -1,0 +1,10 @@
+.bg-blue {
+    background-color: blue;
+}
+.bg-image {
+    background-image: url('/OIP.jpeg'); /* Path from the public folder */
+    background-size: cover; /* Cover the entire div */
+    background-position: center; /* Center the image */
+    min-height: 100vh; /* Make sure the div takes full height */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+}
